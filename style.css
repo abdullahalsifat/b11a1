@@ -200,3 +200,55 @@ main{
   border-radius: 8px;
   cursor: pointer;
 }
+/* Donate */
+.donate{
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.donate h2{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.donate p{
+  margin-bottom: 20px;
+}
+.donate_card{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.donate_card div{
+  background-color: #fff;
+  padding: 25px 50px;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  opacity: 80%;
+}
+.donate_card div:nth-child(2){
+  background-color: #C6E4D6;
+}
+.amount{
+  width: 65%;
+  background-color: #fff;
+  margin: auto;
+  text-align: center;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.donate_button{
+  background-color: #006A50;
+  border: none;
+  outline: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
