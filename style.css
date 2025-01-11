@@ -5,6 +5,7 @@
 }
 body{
   font-family: "Fira Sans", serif;
+  background-color: #F1F1F3;
 }
 /* Header */
 header{
@@ -62,4 +63,42 @@ nav button{
   cursor: pointer;
   font-weight: 600;
   font-size: 15px;
+}
+/* Main */
+main{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+/* Pillars Section */
+.pillars_section{
+  margin: 40px 0;
+}
+.pillars_section h2{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.pillars_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.pillars_content div{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 16px;
+}
+.pillars_content div img{
+  margin-bottom: 10px;
+}
+.pillars_content div h3{
+  color: #0E0E0E;
+  opacity: 80%;
+}
+.pillars_content div h3{
+  margin-bottom: 10px;
+}
+.pillars_content div p{
+  opacity: 80%;
 }
